@@ -32,7 +32,7 @@ When ("I Play first game it should be tied",()=>{
     cy.get("#winningMessage").should("be.visible");
 });
 
-When ("I Play Second game it should be win by X",()=>{
+When ("I Play second game it should be win by X",()=>{
     cy.get("#restartButton").click();
     cy.get(".cell").eq(0).click();
     cy.get(".cell").eq(1).click();
@@ -44,7 +44,7 @@ When ("I Play Second game it should be win by X",()=>{
     cy.get("#winningMessage").should("be.visible");
 });
 
-When ("I Play Second game it should be win by y",()=>{
+When ("I Play third game it should be win by y",()=>{
     cy.get("#restartButton").click();
     cy.get(".cell").eq(0).click();
     cy.get(".cell").eq(2).click();

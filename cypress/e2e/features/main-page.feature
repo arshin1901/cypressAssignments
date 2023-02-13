@@ -42,8 +42,8 @@ Scenario: Play three games, where the first game is tied, the second is won by X
      Then I Clicked on Offline Multiplayer mode 
      And I should see Offline Multiplayer mode open
      When I Play first game it should be tied
-     When I Play Second game it should be win by X
-     When I Play Second game it should be win by y
+     When I Play second game it should be win by X
+     When I Play third game it should be win by y
 
 Scenario:Verify that you are able to see the Restart game once the game is over
      When I visit the Main Page
