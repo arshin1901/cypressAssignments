@@ -5,9 +5,9 @@ Scenario: Verify if two types of modes are available on the Main Page.
     Then I should see '2' types of modes 
 
 Scenario: Verify if Clicking on Offline Multiplayer should go to that particular mode
-     When I visit the Main Page
-     Then I Clicked on Offline Multiplayer mode 
-     And I should see Offline Multiplayer mode open
+    When I visit the Main Page
+    Then I Clicked on Offline Multiplayer mode 
+    And I should see Offline Multiplayer mode open
 
 Scenario: Verify The first move should always be for X
      When I visit the Main Page
@@ -43,7 +43,7 @@ Scenario: Play three games, where the first game is tied, the second is won by X
      And I should see Offline Multiplayer mode open
      When I Play first game it should be tied
      When I Play Second game it should be win by X
-      When I Play Second game it should be win by y
+     When I Play Second game it should be win by y
 
 Scenario:Verify that you are able to see the Restart game once the game is over
      When I visit the Main Page
